@@ -75,7 +75,33 @@ BOXES = {
 # one of the boxes you defined, it will be checked to see if the neighborhood name it was listed under matches one
 # of these.  This is less accurate than the boxes, because it relies on the owner to set the right neighborhood,
 # but it also catches listings that don't have coordinates (many listings are missing this info).
-NEIGHBORHOODS = ["berkeley north", "berkeley", "rockridge", "adams point", "oakland lake merritt", "cow hollow", "piedmont", "pac hts", "pacific heights", "lower haight", "inner sunset", "outer sunset", "presidio", "palo alto", "richmond / seacliff", "haight ashbury", "alameda", "twin peaks", "noe valley", "bernal heights", "glen park", "sunset", "mission district", "potrero hill", "dogpatch"]
+NEIGHBORHOODS = [
+    "berkeley north",
+    "berkeley",
+    "rockridge",
+    "adams point",
+    "oakland lake merritt",
+    "cow hollow",
+    "piedmont",
+    "pac hts",
+    "pacific heights",
+    "lower haight",
+    "inner sunset",
+    "outer sunset",
+    "presidio",
+    "palo alto",
+    "richmond / seacliff",
+    "haight ashbury",
+    "alameda",
+    "twin peaks",
+    "noe valley",
+    "bernal heights",
+    "glen park",
+    "sunset",
+    "mission district",
+    "potrero hill",
+    "dogpatch",
+    "nob hill"]
 
 ## Transit preferences
 
