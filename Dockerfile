@@ -26,6 +26,7 @@ RUN apt-get update && \
               sqlite
 
 RUN mkdir -p /tmp
+RUN pip3 install setuptools==33.1.1
 COPY requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt
 
